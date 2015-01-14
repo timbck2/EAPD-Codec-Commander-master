@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ABE527B189976190069716A /* PIOReadme in Resources */ = {isa = PBXBuildFile; fileRef = 0ABE527A189976190069716A /* PIOReadme */; };
+		0C4B238814598AD20080D960 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C4B238614598AD20080D960 /* InfoPlist.strings */; };
+		84007A42192FE9B700CE8C83 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 84007A41192FE9B700CE8C83 /* README.md */; };
+		849921901600F4FC00CCDF3B /* CodecCommander.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8499218E1600F4FC00CCDF3B /* CodecCommander.cpp */; };
+		849921911600F4FC00CCDF3B /* CodecCommander.h in Headers */ = {isa = PBXBuildFile; fileRef = 8499218F1600F4FC00CCDF3B /* CodecCommander.h */; };
+		D404F1D61A124D5E008E6BFD /* Client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D404F1D51A124D5E008E6BFD /* Client.cpp */; };
+		D4FA53E11A07C8E1000DD257 /* Configuration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4FA53E01A07C8E1000DD257 /* Configuration.cpp */; };
+		D4FB21F71A0CEBE1005D6019 /* IntelHDA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4FB21F61A0CEBE1005D6019 /* IntelHDA.cpp */; };
+		D4FD9E041A039E550095AA5A /* IntelHDA.h in Headers */ = {isa = PBXBuildFile; fileRef = D4FD9E031A039E550095AA5A /* IntelHDA.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D402228D1A14F0F700800AA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D40222891A14F0F600800AA7 /* CodecCommanderClient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D402227F1A14F0F600800AA7;
+			remoteInfo = CodecCommanderClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ABE527A189976190069716A /* PIOReadme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PIOReadme; sourceTree = "<group>"; };
+		0AE84D9919B8306F00968A53 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
+		0C4B237E14598AD20080D960 /* CodecCommander.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodecCommander.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C4B238514598AD20080D960 /* CodecCommander-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodecCommander-Info.plist"; sourceTree = "<group>"; };
+		0C4B238714598AD20080D960 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0C4B238D14598AD20080D960 /* CodecCommander-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "CodecCommander-Prefix.pch"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		84007A41192FE9B700CE8C83 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		84007D7A18B974F200C6799A /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; usesTabs = 1; };
+		8499218E1600F4FC00CCDF3B /* CodecCommander.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = CodecCommander.cpp; sourceTree = "<group>"; usesTabs = 1; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		8499218F1600F4FC00CCDF3B /* CodecCommander.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CodecCommander.h; sourceTree = "<group>"; usesTabs = 1; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D40222891A14F0F600800AA7 /* CodecCommanderClient.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CodecCommanderClient.xcodeproj; path = en.lproj/CodecCommanderClient/CodecCommanderClient.xcodeproj; sourceTree = "<group>"; };
+		D404F1D51A124D5E008E6BFD /* Client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Client.cpp; sourceTree = "<group>"; };
+		D4FA53DF1A07C83B000DD257 /* Configuration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
+		D4FA53E01A07C8E1000DD257 /* Configuration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Configuration.cpp; sourceTree = "<group>"; };
+		D4FB21F61A0CEBE1005D6019 /* IntelHDA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntelHDA.cpp; sourceTree = "<group>"; };
+		D4FB21F81A0CED3E005D6019 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		D4FD9E031A039E550095AA5A /* IntelHDA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IntelHDA.h; sourceTree = "<group>"; usesTabs = 1; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C4B237914598AD20080D960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C4B237114598AD10080D960 = {
+			isa = PBXGroup;
+			children = (
+				D40222891A14F0F600800AA7 /* CodecCommanderClient.xcodeproj */,
+				84007A41192FE9B700CE8C83 /* README.md */,
+				84007D7A18B974F200C6799A /* makefile */,
+				0C4B238314598AD20080D960 /* CodecCommander */,
+				0C4B238014598AD20080D960 /* Frameworks */,
+				0C4B237F14598AD20080D960 /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		0C4B237F14598AD20080D960 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C4B237E14598AD20080D960 /* CodecCommander.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C4B238014598AD20080D960 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AE84D9919B8306F00968A53 /* Kernel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C4B238314598AD20080D960 /* CodecCommander */ = {
+			isa = PBXGroup;
+			children = (
+				8499218F1600F4FC00CCDF3B /* CodecCommander.h */,
+				D404F1D51A124D5E008E6BFD /* Client.cpp */,
+				8499218E1600F4FC00CCDF3B /* CodecCommander.cpp */,
+				0C4B238414598AD20080D960 /* Supporting Files */,
+				D4FD9E031A039E550095AA5A /* IntelHDA.h */,
+				D4FB21F61A0CEBE1005D6019 /* IntelHDA.cpp */,
+				D4FA53DF1A07C83B000DD257 /* Configuration.h */,
+				D4FA53E01A07C8E1000DD257 /* Configuration.cpp */,
+				D4FB21F81A0CED3E005D6019 /* Common.h */,
+			);
+			path = CodecCommander;
+			sourceTree = "<group>";
+		};
+		0C4B238414598AD20080D960 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0ABE527A189976190069716A /* PIOReadme */,
+				0C4B238514598AD20080D960 /* CodecCommander-Info.plist */,
+				0C4B238614598AD20080D960 /* InfoPlist.strings */,
+				0C4B238D14598AD20080D960 /* CodecCommander-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D402228A1A14F0F600800AA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D402228E1A14F0F700800AA7 /* hda-verb */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C4B237A14598AD20080D960 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849921911600F4FC00CCDF3B /* CodecCommander.h in Headers */,
+				D4FD9E041A039E550095AA5A /* IntelHDA.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C4B237D14598AD20080D960 /* CodecCommander */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C4B239014598AD20080D960 /* Build configuration list for PBXNativeTarget "CodecCommander" */;
+			buildPhases = (
+				0C4B237814598AD20080D960 /* Sources */,
+				0C4B237914598AD20080D960 /* Frameworks */,
+				0C4B237A14598AD20080D960 /* Headers */,
+				0C4B237B14598AD20080D960 /* Resources */,
+				0C4B237C14598AD20080D960 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodecCommander;
+			productName = ACPIPoller;
+			productReference = 0C4B237E14598AD20080D960 /* CodecCommander.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C4B237314598AD10080D960 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = 0C4B237614598AD10080D960 /* Build configuration list for PBXProject "CodecCommander" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0C4B237114598AD10080D960;
+			productRefGroup = 0C4B237F14598AD20080D960 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D402228A1A14F0F600800AA7 /* Products */;
+					ProjectRef = D40222891A14F0F600800AA7 /* CodecCommanderClient.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				0C4B237D14598AD20080D960 /* CodecCommander */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D402228E1A14F0F700800AA7 /* hda-verb */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "hda-verb";
+			remoteRef = D402228D1A14F0F700800AA7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C4B237B14598AD20080D960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84007A42192FE9B700CE8C83 /* README.md in Resources */,
+				0C4B238814598AD20080D960 /* InfoPlist.strings in Resources */,
+				0ABE527B189976190069716A /* PIOReadme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		0C4B237C14598AD20080D960 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C4B237814598AD20080D960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4FA53E11A07C8E1000DD257 /* Configuration.cpp in Sources */,
+				D4FB21F71A0CEBE1005D6019 /* IntelHDA.cpp in Sources */,
+				D404F1D61A124D5E008E6BFD /* Client.cpp in Sources */,
+				849921901600F4FC00CCDF3B /* CodecCommander.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0C4B238614598AD20080D960 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C4B238714598AD20080D960 /* en */,
+			);
+			name = InfoPlist.strings;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C4B238E14598AD20080D960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"DEBUG_MSG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LLVM_LTO = NO;
+				"LLVM_LTO[arch=x86_64]" = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULE_VERSION = 2.2.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-fno-stack-protector";
+				"OTHER_LDFLAGS[arch=x86_64]" = "-dead_strip";
+				SDKROOT = macosx;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		0C4B238F14598AD20080D960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LLVM_LTO = NO;
+				"LLVM_LTO[arch=x86_64]" = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULE_VERSION = 2.2.1;
+				OTHER_CFLAGS = "-fno-stack-protector";
+				"OTHER_LDFLAGS[arch=x86_64]" = "-dead_strip";
+				SDKROOT = macosx;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		0C4B239114598AD20080D960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodecCommander/CodecCommander-Prefix.pch";
+				INFOPLIST_FILE = "CodecCommander/CodecCommander-Info.plist";
+				MODULE_NAME = org.tw.CodecCommander;
+				MODULE_VERSION = 2.2.1;
+				PRODUCT_NAME = CodecCommander;
+				STRIP_INSTALLED_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		0C4B239214598AD20080D960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodecCommander/CodecCommander-Prefix.pch";
+				INFOPLIST_FILE = "CodecCommander/CodecCommander-Info.plist";
+				MODULE_NAME = org.tw.CodecCommander;
+				MODULE_VERSION = 2.2.1;
+				PRODUCT_NAME = CodecCommander;
+				STRIP_INSTALLED_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C4B237614598AD10080D960 /* Build configuration list for PBXProject "CodecCommander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C4B238E14598AD20080D960 /* Debug */,
+				0C4B238F14598AD20080D960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C4B239014598AD20080D960 /* Build configuration list for PBXNativeTarget "CodecCommander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C4B239114598AD20080D960 /* Debug */,
+				0C4B239214598AD20080D960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C4B237314598AD10080D960 /* Project object */;
+}
